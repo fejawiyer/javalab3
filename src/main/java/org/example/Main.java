@@ -10,7 +10,7 @@ import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        Person[] visitors = parsing("C:\\Users\\user\\IdeaProjects\\java3lab\\books.json");
+        Person[] visitors = parsing("books.json");
         // Задание 1. Все посетители
         System.out.println("------Task 1-------");
         Arrays.stream(visitors).forEach(visitor -> {

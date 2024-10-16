@@ -16,7 +16,7 @@ class MainTest {
 
     @BeforeEach
     void setUp() throws FileNotFoundException {
-        Person[] visitors = parsing("C:\\Users\\user\\IdeaProjects\\java3lab\\books.json");
+        Person[] visitors = parsing("books.json");
         books = Main.favoriteBooks(visitors);
     }
 
