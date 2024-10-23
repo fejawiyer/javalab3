@@ -1,9 +1,10 @@
 package org.example;
-import lombok.Getter;
+
+import lombok.Data;
 
 import java.util.ArrayList;
 
-@Getter
+@Data
 public class Person {
     private String name;
     private String surname;

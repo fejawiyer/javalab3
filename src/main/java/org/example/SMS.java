@@ -1,13 +1,11 @@
 package org.example;
 
-import lombok.Getter;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
-@Getter
+@Data
+@AllArgsConstructor
 public class SMS {
-    private final String phoneNumber;
-    private final String message;
-    public SMS(String phone, String msg) {
-        phoneNumber = phone;
-        message = msg;
-    }
+    private String phoneNumber;
+    private String message;
 }
